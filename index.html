@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lato:ital,wght@0,100;0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Shopping Website</title>
+  </head>
+  <body class="showcart">
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="right">
+        <ul class="linkcontainer">
+          <li class="link-items"><a href="" class="link active">Home</a></li>
+          <li class="link-items"><a href="" class="link">Product</a></li>
+          <li class="link-items"><a href="" class="link">About</a></li>
+          <li class="link-items"><a href="" class="link">Contact</a></li>
+        </ul>
+      </div>
+      <div  class="user-interactions">
+        <div class="cart">
+          <img src="images/cart.png" class="cart-icon" alt="" />
+          <span id="cart-item-count">00 </span>
+        </div>
+        <div class="user">
+          <img src="images/user.png " class="user-icon" alt="" />
+        </div>
+      </div>
+    </nav>
+    <div class="cart-tab">
+        <h1>Shopping Cart</h1>
+        <div class="list-cart">
+            <div class="item">
+                <div class="chimage">
+                    <img src="./images/irene-kredenets-dwKiHoqqxk8-unsplash(1).jpg" alt="">
+                </div>
+                <div class="chname">
+                    NAME
+                </div>
+                <div class="chtotalprice">
+                    500$
+                </div>
+                <div class="chquantity">
+                    <span class="chminus"><</span>
+                    <span>1</span>
+                    <span class="chplus ">></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="cart-btn">
+            <button class="close">CLOSE</button>
+            <button class="checkout">CHECK Out</button>
+
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="header-section">
+      <h1 class="header-heading"><span>Premium</span> Shoes</h1>
+    </header>
+
+    <!-- best sellers -->
+    <section class="best-seller">
+      <h1 class="section-title">Best Sellers</h1>
+      <div class="product-container">
+        <div>
+          <div class="product-card">
+            <img
+              src="images/irene-kredenets-dwKiHoqqxk8-unsplash(1).jpg"
+              class="product-img"
+              alt=""
+            />
+            <p class="product-name">SHOE111</p>
+            <p class="price">500$</p>
+          </div>
+          <div class="add">
+            <button id="plus">+</button
+            ><span class="quantity" id="quantity">0</span
+            ><button id="minus">-</button>
+            <i id="fa-heart" class="fa-solid fa-heart"></i>
+          </div>
+        </div>
+        <div>
+          <div class="product-card">
+            <img
+              src="images/artem-bondarchuk-XPBYi4K8vFI-unsplash.jpg"
+              class="product-img"
+              alt=""
+            />
+            <p class="product-name">SHOE111</p>
+            <p class="price">500$</p>
+          </div>
+          <div class="add">
+            <button id="plus1">+</button
+            ><span class="quantity" id="quantity1">0</span
+            ><button id="minus1">-</button>
+            <i id="fa-heart1" class="fa-solid fa-heart"></i>
+          </div>
+        </div>
+        <div>
+          <div class="product-card">
+            <img
+              src="images/usama-akram-kP6knT7tjn4-unsplash.jpg"
+              class="product-img"
+              alt=""
+            />
+            <p class="product-name">SHOE111</p>
+            <p class="price">500$</p>
+          </div>
+          <div class="add">
+            <button id="plus2">+</button
+            ><span class="quantity" id="quantity2">0</span
+            ><button id="minus2">-</button>
+            <i id="fa-heart2" class="fa-solid fa-heart"></i>
+          </div>
+        </div>
+        <div>
+          <div class="product-card">
+            <img
+              src="images/andres-jasso-PqbL_mxmaUE-unsplash.jpg"
+              class="product-img"
+              alt=""
+            />
+            <p class="product-name">SHOE111</p>
+            <p class="price">500$</p>
+          </div>
+          <div class="add">
+            <button id="plus3">+</button
+            ><span class="quantity" id="quantity3">0</span
+            ><button id="minus3">-</button>
+            <i id="fa-heart3" class="fa-solid fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mid section -->
+    <section class="mid-section">
+      <div class="section-item-container">
+        <img
+          src="images/riyan-ong-j1PxAa2U-T4-unsplash.jpg"
+          class="section-bg"
+          alt=""
+        />
+        <div class="section-info">
+          <h1 class="title">Premium Shoes in <span>Affordable</span> Prices</h1>
+          <p class="info">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+            tenetur consequatur, aut quis magnam totam!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- image collage section -->
+    <section class="image-mid-section">
+      <div class="image-collage">
+        <div class="image-collection">
+          <img
+            src="./images/joel-muniz-DEHSENUf5ew-unsplash.jpg"
+            class="collage-img"
+            alt=""
+          />
+          <img
+            src="./images/branislav-belko-lJ7iAZxplpc-unsplash.jpg"
+            class="collage-img"
+            alt=""
+          />
+          <img
+            src="./images/ryan-plomp-bySPt2lySzg-unsplash.jpg"
+            class="collage-img"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- end section -->
+    <section class="end-section">
+        <div class="section-item-container">
+            <img
+              src="images/sebastien-chiron-1LFXMyrFRNw-unsplash.jpg"
+              class="section-bg"
+              alt=""
+            />
+            <div class="section-info">
+              <h1 class="title">Order<span>Now</span> </h1>
+              <p class="info">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+                tenetur consequatur, aut quis magnam totam!
+              </p>
+            </div>
+    </section>
+    <footer>Made By Abiodun</footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
