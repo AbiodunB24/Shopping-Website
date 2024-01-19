@@ -1,50 +1,50 @@
 [
-    {
-        "id": 1,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
-        "id": 3,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
+  {
+    "id": 1,
+    "name": "Velocity Runner",
+    "price": 650,
+    "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Stealth Strider",
+    "price": 720,
+    "image": "images/ryan-plomp-76w_eDO1u1E-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Urban Explorer",
+    "price": 550,
+    "image": "images/istockphoto-1407560201-170667a.webp"
+  },
+  {
+    "id": 4,
+    "name": "Adventura Flex",
+    "price": 680,
+    "image": "images/istockphoto-1417090656-170667a.webp"
+  },
+  {
     "id": 5,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    },
-    {
-        "id": 8,
-        "name": "Shoe111",
-        "price": 500,
-        "image": "images/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"
-    }
+    "name": "Eclipse Sprint",
+    "price": 590,
+    "image": "images/photo-1549298916-f52d724204b4.avif"
+  },
+  {
+    "id": 6,
+    "name": "Rapid Glide",
+    "price": 630,
+    "image": "images/photo-1579338559194-a162d19bf842.avif"
+  },
+  {
+    "id": 7,
+    "name": "Zenith Trek",
+    "price": 700,
+    "image": "images/photo-1600269452121-4f2416e55c28.avif"
+  },
+  {
+    "id": 8,
+    "name": "Infinity Walk",
+    "price": 670,
+    "image": "images/photo-1608667508764-33cf0726b13a.avif"
+  }
 ]
