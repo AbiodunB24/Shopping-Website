@@ -21,16 +21,16 @@
     <nav class="navbar">
       <div class="right">
         <ul class="linkcontainer">
-          <li class="link-items"><a href="" class="link active">Home</a></li>
-          <li class="link-items"><a href="" class="link">Product</a></li>
-          <li class="link-items"><a href="" class="link">About</a></li>
-          <li class="link-items"><a href="" class="link">Contact</a></li>
+          <li class="link-items"><a href="#hom" class="link active">Home</a></li>
+          <li class="link-items"><a href="#prod" class="link">Product</a></li>
+          <li class="link-items"><a href="#abt" class="link">About</a></li>
+          <li class="link-items"><a href="#cont" class="link">Contact</a></li>
         </ul>
       </div>
       <div  class="user-interactions">
         <div class="cart">
           <img src="images/cart.png" class="cart-icon" alt="" />
-          <span id="cart-item-count">00 </span>
+          <span id="cart-item-count">0</span>
         </div>
         <div class="user">
           <img src="images/user.png " class="user-icon" alt="" />
@@ -41,32 +41,19 @@
         <h1>Shopping Cart</h1>
         <div class="list-cart">
             <div class="item">
-                <div class="chimage">
-                    <img src="./images/ryan-plomp-bySPt2lySzg-unsplash.jpg" alt="">
-                </div>
-                <div class="chname">
-                    NAME
-                </div>
-                <div class="chtotalprice">
-                    500$
-                </div>
-                <div class="chquantity">
-                    <span class="chminus"><</span>
-                    <span>1</span>
-                    <span class="chplus ">></span>
-                </div>
-
+                
             </div>
         </div>
         <div class="cart-btn">
             <button class="close">CLOSE</button>
-            <button class="checkout">CHECK Out</button>
+            <button id="checkout-btn" class="checkout">CHECK Out</button>
+             <span id="totalPriceDisplay"> </span>
 
         </div>
     </div>
 
     <!-- header -->
-    <header class="header-section">
+    <header id="hom" class="header-section">
       <h1 class="header-heading"><span>Premium</span> Shoes</h1>
     </header>
 
@@ -81,11 +68,11 @@
               class="product-img"
               alt=""
             />
-            <p class="product-name">SHOE111</p>
-            <p class="price">$500</p>
+            <p class="product-name">Sprint Blaze</p>
+            <p class="price">$8500</p>
           </div>
           <div class="add">
-            <button id="plus">Add To Cart</button>
+            <!-- <button id="plus">Add To Cart</button> -->
             <!-- <span class="quantity" id="quantity">0</span
             ><button id="minus">-</button> -->
             <i id="fa-heart" class="fa-solid fa-heart"></i>
@@ -98,11 +85,11 @@
               class="product-img"
               alt=""
             />
-            <p class="product-name">SHOE111</p>
-            <p class="price">$500</p>
+            <p class="product-name">Epic Stride</p>
+            <p class="price">$9200</p>
           </div>
           <div class="add">
-            <button id="plus1">Add To Cart</button>
+            <!-- <button id="plus1">Add To Cart</button> -->
             <!-- <span class="quantity" id="quantity1">0</span
             ><button id="minus1">-</button> -->
             <i id="fa-heart1" class="fa-solid fa-heart"></i>
@@ -115,11 +102,11 @@
               class="product-img"
               alt=""
             />
-            <p class="product-name">SHOE111</p>
-            <p class="price">$500</p>
+            <p class="product-name">Adventure Flex</p>
+            <p class="price">$7800</p>
           </div>
           <div class="add">
-            <button id="plus2">Add To Cart</button>
+            <!-- <button id="plus2">Add To Cart</button> -->
             <!-- <span class="quantity" id="quantity2">0</span
             ><button id="minus2">-</button> -->
             <i id="fa-heart2" class="fa-solid fa-heart"></i>
@@ -132,11 +119,11 @@
               class="product-img"
               alt=""
             />
-            <p class="product-name">SHOE111</p>
-            <p class="price">$500</p>
+            <p class="product-name">Velocity Surge</p>
+            <p class="price">$8100</p>
           </div>
           <div class="add">
-            <button id="plus3">Add To Cart</button>
+            <!-- <button id="plus3">Add To Cart</button> -->
             <!-- <span class="quantity" id="quantity3">0</span
             ><button id="minus3">-</button> -->
             <i id="fa-heart3" class="fa-solid fa-heart"></i>
@@ -146,7 +133,7 @@
     </section>
 
     <!-- mid section -->
-    <section class="mid-section">
+    <section id="abt" class="mid-section">
       <div class="section-item-container">
         <img
           src="images/riyan-ong-j1PxAa2U-T4-unsplash.jpg"
@@ -187,7 +174,7 @@
     </section>
 
     <!-- end section -->
-    <section class="end-section">
+    <section id="cont" class="end-section">
         <div class="section-item-container">
             <img
               src="images/sebastien-chiron-1LFXMyrFRNw-unsplash.jpg"
@@ -200,10 +187,20 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
                 tenetur consequatur, aut quis magnam totam!
               </p>
+              <div class="accounts">
+                <h2 class="info">You can contact me on the following platforms:</h2>
+                <i class="fa-brands fa-whatsapp"> <span class="info">- 08098986485</span></i>
+                <i class="fa-brands fa-instagram"> <span class="info">- Emperor_balo</span></i>
+                <i class="fa-brands fa-github"> <span class="info">- Abiodunb24</span></i>
+                <i class="fa-brands fa-snapchat"> <span class="info">- Emperor_balo</span></i>
+                <i class="fa-brands fa-x-twitter"> <span class="info">- Emperor_balo</span></i>
+              </div>
+          
+        
             </div>
             
     </section>
-    <div class="listproduct">
+    <div id="prod" class="listproduct">
       <div class="items">
         <img src="./images/ryan-plomp-bySPt2lySzg-unsplash.jpg" alt="">
         <h2>Name Product</h2>
